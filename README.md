@@ -15,7 +15,7 @@
 
 - On peut lancer notre conteneur avec la commande docker run
 
-## docker run -it -p 8080:8080 --rm --name issam-app-1 issam/issam-app
+## docker run -d -p 8080:8080 --name issam-app-1 issam/issam-app
 
 ----------------------------------------------------------
 
