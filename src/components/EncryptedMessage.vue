@@ -31,6 +31,7 @@ export default {
         encryptedMessage:null
     }
   },
+  // To bad that fonction doesn't save the data somewhere :-(
   methods: {
     sha256Function() {
       this.encryptedMessage= sha256(this.message);
